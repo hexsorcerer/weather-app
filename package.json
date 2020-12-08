@@ -4,6 +4,8 @@
   "description": "The second sample application of 'The Complete Node.js Developer Course (3rd Edition)' on Udemy",
   "main": "index.js",
   "dependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^8.2.1",
     "semantic-release": "^17.3.0"
   },
   "devDependencies": {},
