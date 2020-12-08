@@ -1,0 +1,28 @@
+{
+  "name": "weather-app",
+  "version": "0.0.0",
+  "description": "The second sample application of 'The Complete Node.js Developer Course (3rd Edition)' on Udemy",
+  "main": "index.js",
+  "dependencies": {
+    "semantic-release": "^17.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hexsorcerer/weather-app.git"
+  },
+  "keywords": [
+    "node",
+    "udemy",
+    "weather"
+  ],
+  "author": "hexsorcerer",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/hexsorcerer/weather-app/issues"
+  },
+  "homepage": "https://github.com/hexsorcerer/weather-app#readme"
+}
