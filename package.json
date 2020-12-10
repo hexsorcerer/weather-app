@@ -10,7 +10,11 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "mocha tests/*.test.js"
+    "test": "mocha tests/*.test.js",
+    "clean:linux": "rm -rf dist/",
+    "mkdirs:linux": "mkdir -p dist/js",
+    "copy:linux": "cp index.js dist/js",
+    "build:linux": "npm run clean:linux && npm run mkdirs:linux && npm run copy:linux"
   },
   "repository": {
     "type": "git",
